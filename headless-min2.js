@@ -2171,13 +2171,14 @@ var dupa = 'dupencja';
       var b = D.onRoomLink;
       null != b && b(a)
     };
+    console.log('eeee?');
     u.rh = function (a) {
       var b = A.ub.get(a.na),
         c = null,
         d = null;
-      // console.log('aaa', a, b);
+      console.log('aaa', a, b);
       null != b && (c = b.tg, d = b.ac.fb);
-      // console.log('bbb', c, d);
+      console.log('bbb', c, d);
       b = D.onPlayerJoin;
       //console.log(b);
       //console.log(f(a));
