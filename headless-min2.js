@@ -1852,7 +1852,8 @@ var dupa = 'dupencja';
       }
     }
     function c(a) {
-      console.log('tutej szukamy', a)
+      // console.log('tutej szukamy', a)
+      // tu chyba można definiować np. co się wyświetla gdy wywalamy kogoś z roomu
       B.then(function () {
         A.ec(a)
       })
@@ -2176,14 +2177,13 @@ var dupa = 'dupencja';
       var b = A.ub.get(a.na),
         c = null,
         d = null;
-      console.log('aaa', a, b);
+      // console.log('aaa', a, b);
       null != b && (c = b.tg, d = b.ac.fb);
-      console.log('bbb', c, d);
+      // console.log('bbb', c, d);
       b = D.onPlayerJoin;
       //console.log(b);
       //console.log(f(a));
-      // null != b && (a = f(a), a.auth = c, a.conn = d, b(a))
-      null != b && (a = f(a), a.auth = 'dupadupadupa', a.conn = d, b(a))
+      null != b && (a = f(a), a.auth = c, a.conn = d, b(a))
     };
     u.Af = function () {
       var a = D.onTeamVictory;
@@ -3878,7 +3878,6 @@ var dupa = 'dupencja';
     e.zb = d;
     return e
   };
-  console.log('chaaaaaaalo');
   R.M = g; R.prototype = v(g.prototype, {
     apply: function (a) {
       if (0 == this.A) {
