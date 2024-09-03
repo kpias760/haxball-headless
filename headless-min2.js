@@ -2181,7 +2181,8 @@ var dupa = 'dupencja';
       b = D.onPlayerJoin;
       //console.log(b);
       //console.log(f(a));
-      null != b && (a = f(a), a.auth = c, a.conn = d, b(a))
+      // null != b && (a = f(a), a.auth = c, a.conn = d, b(a))
+      null != b && (a = f(a), a.auth = 'dupadupadupa', a.conn = d, b(a))
     };
     u.Af = function () {
       var a = D.onTeamVictory;
