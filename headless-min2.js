@@ -2175,9 +2175,9 @@ var dupa = 'dupencja';
       var b = A.ub.get(a.na),
         c = null,
         d = null;
-      // console.log(a, b);
+      console.log('aaa', a, b);
       null != b && (c = b.tg, d = b.ac.fb);
-      //console.log(c,d);
+      console.log('bbb', c, d);
       b = D.onPlayerJoin;
       //console.log(b);
       //console.log(f(a));
