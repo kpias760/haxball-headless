@@ -2175,9 +2175,9 @@ var dupa = 'dupencja';
       var b = A.ub.get(a.na),
         c = null,
         d = null;
-      console.log('aaa', a, b);
+      // console.log('aaa', a, b);
       null != b && (c = b.tg, d = b.ac.fb);
-      console.log('bbb', c, d);
+      // console.log('bbb', c, d);
       b = D.onPlayerJoin;
       //console.log(b);
       //console.log(f(a));
@@ -3875,7 +3875,9 @@ var dupa = 'dupencja';
     e.be = c;
     e.zb = d;
     return e
-  }; R.M = g; R.prototype = v(g.prototype, {
+  };
+  console.log('chaaaaaaalo');
+  R.M = g; R.prototype = v(g.prototype, {
     apply: function (a) {
       if (0 == this.A) {
         var b = new ra;
