@@ -1998,7 +1998,7 @@ var dupa = 'dupencja';
           c(a)
         },
         setCustomStadium: function (a) {
-          console.log('dupsko', a);
+          // console.log('dupsko', a);
           var b = new n;
           try {
             b.Xg(a)
@@ -2039,7 +2039,7 @@ var dupa = 'dupencja';
           var m = e.length;
           a = 0;
           for (m = 3 > m ? m : 3; a < m;) h.Pa.push(e[a++] | 0);
-          console.log(a, b, d, e, m, h.Pa);
+          // console.log(a, b, d, e, m, h.Pa);
           h.Td = d | 0;
           h.xe = 256 * b / 360 | 0;
           c(f)
@@ -2172,7 +2172,7 @@ var dupa = 'dupencja';
       var b = D.onRoomLink;
       null != b && b(a)
     };
-    console.log('eeee?');
+    // console.log('eeee?');
     u.rh = function (a) {
       var b = A.ub.get(a.na),
         c = null,
@@ -2236,11 +2236,11 @@ var dupa = 'dupencja';
     };
     u.vf = function (a, b) {
       var c = D.onStadiumChange;
-      console.log(a, b, c); //TUTEJ
+      // console.log(a, b, c); //TUTEJ
       // D.sendAnnouncement('dupcia');
-      console.log(dupa);
-      console.log(D);
-      console.log(d, e, f);
+      // console.log(dupa);
+      // console.log(D);
+      // console.log(d, e, f);
       null != c && c(b.pa, f(a))
     };
     u.sh = function (a, c, d, e) {
@@ -2975,7 +2975,7 @@ var dupa = 'dupencja';
         return new x(b, a)
       }
       function c(a, b, c, d) {
-        console.log('11', a, b, c, d);
+        // console.log('11', a, b, c, d);
         null == d && (d = !1);
         b = e[b];
         if (!d || null != b) if (d = k.l(b, Array), null != d) for (b = 0; b < d.length;) {
@@ -2991,7 +2991,7 @@ var dupa = 'dupencja';
       }
       var d = this,
         e = JSON5.parse(a);
-      console.log('eeeee', a, d, e);
+      // console.log('eeeee', a, d, e);
       this.u = [
       ];
       this.I = [
@@ -3006,7 +3006,7 @@ var dupa = 'dupencja';
       ];
       this.pa = k.l(e.name, String);
       dupa = e.name;
-      console.log(e.name);
+      // console.log(e.name);
       this.Wb = k.l(e.width, t);
       this.yc = k.l(e.height, t);
       this.Ed = this.Ib(e, 'maxViewWidth', 0) | 0;
